@@ -1,0 +1,240 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: AUTO VCU
+
+
+BO_ 2563041775 ultrasonic_2_fb: 8 Vector__XXX
+ SG_ ultrasonic_fb_02_check_bcc : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ultrasonic_fb_02_alive_cnt : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ultrasonic_fb_08 : 36|12@1+ (1,0) [0|0] "mm" Vector__XXX
+ SG_ ultrasonic_fb_07 : 24|12@1+ (1,0) [0|0] "mm" Vector__XXX
+ SG_ ultrasonic_fb_06 : 12|12@1+ (1,0) [0|0] "mm" Vector__XXX
+ SG_ ultrasonic_fb_05 : 0|12@1+ (1,0) [0|0] "mm" Vector__XXX
+
+BO_ 2563041519 ultrasonic_1_fb: 8 Vector__XXX
+ SG_ ultrasonic_fb_01_check_bcc : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ultrasonic_fb_01_alive_cnt : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ultrasonic_fb_04 : 36|12@1+ (1,0) [0|0] "mm" Vector__XXX
+ SG_ ultrasonic_fb_03 : 24|12@1+ (1,0) [0|0] "mm" Vector__XXX
+ SG_ ultrasonic_fb_02 : 12|12@1+ (1,0) [0|0] "mm" Vector__XXX
+ SG_ ultrasonic_fb_01 : 0|12@1+ (1,0) [0|0] "mm" Vector__XXX
+
+BO_ 2563036112 rear_free_ctrl_cmd: 8 Vector__XXX
+ SG_ rear_free_ctrl_cmd_velocity_r : 20|16@1- (0.001,0) [0|0] "" Vector__XXX
+ SG_ rear_free_ctrl_cmd_velocity_l : 4|16@1- (0.001,0) [0|0] "" Vector__XXX
+ SG_ rear_free_ctrl_cmd_gear : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rear_free_ctrl_cmd_check_bcc : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rear_free_ctrl_cmd_alive_cnt : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2563037679 rf_wheel_fb: 8 Vector__XXX
+ SG_ rf_wheel_fb_velocity : 0|16@1- (0.001,0) [0|0] "" Vector__XXX
+ SG_ rf_wheel_fb_pulse : 16|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ rf_wheel_fb_check_bcc : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rf_wheel_fb_alive_cnt : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2563036911 lf_wheel_fb: 8 Vector__XXX
+ SG_ lf_wheel_fb_velocity : 0|16@1- (0.001,0) [0|0] "" Vector__XXX
+ SG_ lf_wheel_fb_pulse : 16|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ lf_wheel_fb_check_bcc : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ lf_wheel_fb_alive_cnt : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2563035631 ctrl_DGT_fb: 8 Vector__XXX
+ SG_ ctrl_fb_RemoteSt : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ctrl_fb_mode : 44|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_fb_linear : 4|16@1- (0.001,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_fb_gear : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_fb_check_bcc : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_fb_angular : 20|16@1- (0.01,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_fb_alive_cnt : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2563035600 ctrl_DGT_cmd: 8 Vector__XXX
+ SG_ ctrl_DGT_cmd_check_bcc : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_cmd_angular : 20|16@1- (0.01,0) [-327.68|327.67] "" Vector__XXX
+ SG_ ctrl_DGT_cmd_linear : 4|16@1- (0.001,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_cmd_alive_cnt : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ctrl_DGT_cmd_gear : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2566914047 Sensor_reset: 8 AUTO
+ SG_ Close_candiag : 56|8@1+ (1,0) [0|255] ""  VCU
+ SG_ Brake_reset : 8|1@1+ (1,0) [0|0] ""  VCU
+ SG_ steer_reset : 0|1@1+ (1,0) [0|0] ""  VCU
+
+BO_ 2563042031 Veh_fb_Diag: 8 VCU
+ SG_ Veh_fb_AutoFreeRCanFlt : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Veh_fb_AutoFreeFCanFlt : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Veh_fb_AutoIOCANCmd : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Veh_fb_RFDrvMCUFault : 26|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Veh_fb_LFDrvMCUFault : 20|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Veh_fb_RDrvMCUFault : 38|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Veh_fb_LDrvMCUFault : 32|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Veh_fb_EPSOverCurrent : 13|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_EPSDisWork : 12|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_EPSWarning : 11|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_AuxRemoteDisOnline : 47|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_AuxRemoteClose : 46|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_AUXBMSDisOnline : 44|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_AutoDGTCANCtrlCmd : 4|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_Infor_check_bcc : 56|8@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_Infor_alive_cnt : 52|4@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_AuxScram : 45|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_EPSMosfetOT : 10|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_EPSfault : 9|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_EPSDisOnline : 8|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ Veh_fb_FaultLevel : 0|4@1+ (1,0) [0|0] ""  AUTO
+
+BO_ 2563039983 bms_flag_Infor: 8 VCU
+ SG_ bms_flag_Infor_SOCLowProtection : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ bms_flag_Infor_check_bcc : 56|8@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_alive_cnt : 52|4@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_SOCWarning : 23|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_low_temperature : 40|12@1- (0.1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_hight_temperature : 28|12@1- (0.1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_charge_st : 21|2@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_lock_mos : 20|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_ic_error : 19|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_short : 18|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_discharge_oc : 17|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_charge_oc : 16|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_discharge_ut : 15|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_discharge_ot : 14|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_charge_ut : 13|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_charge_ot : 12|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_uv : 11|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_ov : 10|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_single_uv : 9|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_single_ov : 8|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_flag_Infor_soc : 0|8@1+ (1,0) [0|0] ""  AUTO
+
+BO_ 2563039727 bms_Infor: 8 VCU
+ SG_ bms_Infor_check_bcc : 56|8@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_Infor_alive_cnt : 52|4@1+ (1,0) [0|0] ""  AUTO
+ SG_ bms_Infor_remaining_capacity : 32|16@1+ (0.01,0) [0|0] ""  AUTO
+ SG_ bms_Infor_current : 16|16@1- (0.01,0) [0|0] ""  AUTO
+ SG_ bms_Infor_voltage : 0|16@1+ (0.01,0) [0|0] ""  AUTO
+
+BO_ 2563038959 odo_fb: 8 VCU
+ SG_ odo_fb_accumulative_angular : 32|32@1- (0.001,0) [0|0] ""  AUTO
+ SG_ odo_fb_accumulative_mileage : 0|32@1- (0.001,0) [0|0] ""  AUTO
+
+BO_ 2563037935 io_fb: 8 VCU
+ SG_ io_fb_ScramSt : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ io_fb_ChargeEn : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ io_fb_disChargeflg : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ io_fb_check_bcc : 56|8@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_alive_cnt : 52|4@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_rr_drop_sensor : 37|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_rm_drop_sensor : 36|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_rl_drop_sensor : 35|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_fr_drop_sensor : 34|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_fm_drop_sensor : 33|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_fl_drop_sensor : 32|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_rr_impact_sensor : 29|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_rm_impact_sensor : 28|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_rl_impact_sensor : 27|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_fr_impact_sensor : 26|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_fm_impact_sensor : 25|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_fl_impact_sensor : 24|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_speaker : 16|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_fog_lamp : 14|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_clearance_lamp : 13|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_braking_lamp : 12|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_turn_lamp : 10|2@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_upper_beam_headlamp : 9|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_lower_beam_headlamp : 8|1@1+ (1,0) [0|0] ""  AUTO
+ SG_ io_fb_enable : 0|1@1+ (1,0) [0|0] ""  AUTO
+
+BO_ 2563037423 rr_wheel_fb: 8 VCU
+ SG_ rr_wheel_fb_velocity : 0|16@1- (0.001,0) [0|0] ""  AUTO
+ SG_ rr_wheel_fb_pulse : 16|32@1- (1,0) [0|0] ""  AUTO
+ SG_ rr_wheel_fb_check_bcc : 56|8@1+ (1,0) [0|0] ""  AUTO
+ SG_ rr_wheel_fb_alive_cnt : 52|4@1+ (1,0) [0|0] ""  AUTO
+
+BO_ 2563037167 lr_wheel_fb: 8 VCU
+ SG_ lr_wheel_fb_check_bcc : 56|8@1+ (1,0) [0|0] ""  AUTO
+ SG_ lr_wheel_fb_alive_cnt : 52|4@1+ (1,0) [0|0] ""  AUTO
+ SG_ lr_wheel_fb_pulse : 16|32@1- (1,0) [0|0] ""  AUTO
+ SG_ lr_wheel_fb_velocity : 0|16@1- (0.001,0) [0|0] ""  AUTO
+
+BO_ 2563037136 io_cmd: 8 AUTO
+ SG_ io_cmd_disCharge : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ io_cmd_check_bcc : 56|8@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_alive_cnt : 52|4@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_speaker : 16|1@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_fog_lamp : 14|1@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_clearance_lamp : 13|1@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_braking_lamp : 12|1@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_turn_lamp : 10|2@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_upper_beam_headlamp : 9|1@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_lower_beam_headlamp : 8|1@1+ (1,0) [0|0] ""  VCU
+ SG_ io_cmd_enable : 0|1@1+ (1,0) [0|0] ""  VCU
+
+BO_ 2563035856 front_free_ctrl_cmd: 8 AUTO
+ SG_ front_free_ctrl_cmd_check_bcc : 56|8@1+ (1,0) [0|0] ""  VCU
+ SG_ front_free_ctrl_cmd_alive_cnt : 52|4@1+ (1,0) [0|0] ""  VCU
+ SG_ front_free_ctrl_cmd_velocity_r : 20|16@1- (0.001,0) [0|0] ""  VCU
+ SG_ front_free_ctrl_cmd_velocity_l : 4|16@1- (0.001,0) [0|0] ""  VCU
+ SG_ front_free_ctrl_cmd_gear : 0|4@1+ (1,0) [0|0] ""  VCU
+
+
+
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_ "DBName" "chassis_fr_can_protocol_v100_2";
+

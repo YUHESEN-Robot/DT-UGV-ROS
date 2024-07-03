@@ -1,0 +1,3 @@
+uint8    front_free_ctrl_cmd_gear
+float32  front_free_ctrl_cmd_velocity_l
+float32  front_free_ctrl_cmd_velocity_r
